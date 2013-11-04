@@ -144,7 +144,7 @@
 				</xsd:annotation>
 				<xsd:simpleType>
 					<xsd:restriction base="xsd:string">
-						<xsd:enumeration value="entrega" />
+						<xsd:enumeration value="residencial" />
 						<xsd:enumeration value="comercial" />
 					</xsd:restriction>
 				</xsd:simpleType>
