@@ -426,30 +426,27 @@
 
 	<xsd:complexType name="Transaction">
 		<xsd:all>
-			<xsd:element name="desconto_total" type="xsd:float"
+			<xsd:element name="desconto" type="xsd:float"
 				minOccurs="1" maxOccurs="1">
 				<xsd:annotation>
 					<xsd:documentation>
-						Esta tag contem a soma de todos os descontos de
-						todos os produtos.
+						Esta tag contem o desconto total para a transação.
 					</xsd:documentation>
 				</xsd:annotation>
 			</xsd:element>
-			<xsd:element name="peso_total" type="xsd:float"
+			<xsd:element name="peso" type="xsd:float"
 				minOccurs="1" maxOccurs="1">
 				<xsd:annotation>
 					<xsd:documentation>
-						Esta tag contem a soma do peso de todos os
-						produtos.
+						Esta tag contém o peso total para a transação.
 					</xsd:documentation>
 				</xsd:annotation>
 			</xsd:element>
-			<xsd:element name="frete_total" type="xsd:float"
+			<xsd:element name="frete" type="xsd:float"
 				minOccurs="1" maxOccurs="1">
 				<xsd:annotation>
 					<xsd:documentation>
-						Esta tag contem a soma do valor de todos os
-						fretes dos produtos.
+						Esta tag contém o frete total para a transação.
 					</xsd:documentation>
 				</xsd:annotation>
 			</xsd:element>
